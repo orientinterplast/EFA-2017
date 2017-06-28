@@ -2,7 +2,7 @@
 
 // Replace this with your own email address
 $siteOwnersEmail = 'emergencyfirstaidindia@gmail.com';
-
+echo "in PHP";
 // Pear Mail Library
 //require_once "Mail.php";
 require 'PHPMailer/PHPMailerAutoload.php';
