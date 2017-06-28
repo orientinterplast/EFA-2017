@@ -65,7 +65,7 @@ if($_POST) {
 
    if ($error == '') {
 
-      /*$mail = new PHPMailer();
+      $mail = new PHPMailer();
 
 		$mail->IsSMTP();
 		//$mail->SMTPDebug = 3;
@@ -90,7 +90,7 @@ if($_POST) {
         echo 'ok';
     }
 	*/
-		/*$mail->From = $email;
+		$mail->From = $email;
 		$mail->FromName = $name;
 		$mail->AddAddress($siteOwnersEmail);
 		$mail->AddReplyTo($email, 'Information');
@@ -107,8 +107,8 @@ if($_POST) {
 		else
 		{
 		  echo "Message successfully send !";
-		}*/
-		
+		}
+/*		
 // Multiple recipients
 $to = 'emergencyfirstaidindia@gmail.com'; // note the comma
 
@@ -127,7 +127,7 @@ $headers[] = 'From: '.$name.$email;
 //$headers[] = 'Bcc: birthdaycheck@example.com';
 
 // Mail it
-mail($to, $subject, $message, implode("\r\n", $headers));
+mail($to, $subject, $message, implode("\r\n", $headers));*/
 		
 	} # end if - no validation error
 
